@@ -1,0 +1,9 @@
+{
+  "name": "whatsapp",
+  "version": "0.1.0",
+  "description": "WhatsApp operations and automation — Channels, groups, message aggregation, time-bounded summarization, posting, bots, and integrations. Portable across Claude Code and Grok Build.",
+  "author": {
+    "name": "ZagaUS"
+  },
+  "keywords": ["whatsapp", "channels", "messaging", "automation", "waha", "ops"]
+}
