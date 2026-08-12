@@ -20,30 +20,39 @@ grok plugin marketplace add ZagaUS/ops-claude
 grok plugin marketplace add https://github.com/ZagaUS/ops-claude.git
 ```
 
-Then install individual plugins with:
+Then install the plugin:
 
 ```bash
-/plugin install <plugin-name>@ops-claude
-# or in Grok:
-grok plugin install <plugin-name> --trust
+# Claude Code
+/plugin install whatsapp@ops-claude
+
+# Grok Build
+grok plugin install whatsapp --trust
 ```
+
+## Current plugins
+
+| Plugin     | Description                                                                 | Version |
+|------------|-----------------------------------------------------------------------------|---------|
+| **whatsapp** | WhatsApp operations — Channels/groups aggregation, time-bounded summarization, posting, bots, and CI integrations. Portable across Claude Code & Grok Build. | 0.1.0   |
 
 ## Structure
 
 ```
 ops-claude/
 ├── .claude-plugin/
-│   └── marketplace.json     # Catalog of available plugins
-├── plugins/                 # One folder per plugin (coming soon)
+│   └── marketplace.json
+├── plugins/
+│   └── whatsapp/
+│       ├── .claude-plugin/
+│       │   └── plugin.json
+│       └── skills/
+│           └── whatsapp/
+│               ├── SKILL.md
+│               └── references/
 ├── README.md
-└── LICENSE
+└── ...
 ```
-
-## Current plugins
-
-None yet — this marketplace is being bootstrapped.
-
-The first planned plugin will package the portable **whatsapp-channels** skill for message aggregation, time-bounded summarization, and automation across Claude Code and Grok Build.
 
 ## Contributing
 
