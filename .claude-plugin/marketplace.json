@@ -6,5 +6,16 @@
     "email": ""
   },
   "version": "0.1.0",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "whatsapp",
+      "source": "./plugins/whatsapp",
+      "description": "WhatsApp operations and automation — Channels, groups, message aggregation, time-bounded summarization, posting, bots, and integrations. Portable across Claude Code and Grok Build.",
+      "version": "0.1.0",
+      "author": {
+        "name": "ZagaUS"
+      },
+      "keywords": ["whatsapp", "channels", "messaging", "automation", "waha", "ops"]
+    }
+  ]
 }
