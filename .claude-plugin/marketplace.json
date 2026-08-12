@@ -1,0 +1,10 @@
+{
+  "name": "ops-claude",
+  "description": "Portable skills and plugins for Claude Code, Grok Build, and other coding agents. Focused on operations, automation, messaging channels, and cross-harness workflows.",
+  "owner": {
+    "name": "ZagaUS",
+    "email": ""
+  },
+  "version": "0.1.0",
+  "plugins": []
+}
